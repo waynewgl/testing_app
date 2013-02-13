@@ -5,13 +5,13 @@
 #   gem 'sqlite3'
 
   development:
-    adapter: mysql2
+    adapter: postgresql
     encoding: utf8
     reconnect: false
     database: blog_development
     pool: 5
-    username: root
-    password: 0guiwei
+    username: waynewgl@gmail.com
+    password: zero06120707
     socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
