@@ -4,14 +4,16 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 
+#heroku keys:add ~/.ssh/id_rsa.pub
+
   development:
-    adapter: postgresql
+    adapter: mysql2
     encoding: utf8
     reconnect: false
-    database: blog_development
+    database: heroku_b9d4fcff601bc2f
     pool: 5
-    username: waynewgl@gmail.com
-    password: zero06120707
+    username: b9902f4aa960d8
+    password: 9ef88655
     socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
